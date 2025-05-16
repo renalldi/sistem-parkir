@@ -40,7 +40,7 @@ class ProfileScreen extends StatelessWidget {
                   ),
                   const SizedBox(height: 8),
                   const Text(
-                    "Mina",
+                    "User",
                     style: TextStyle(
                       fontSize: 18,
                       fontWeight: FontWeight.w600,
@@ -66,7 +66,7 @@ class ProfileScreen extends StatelessWidget {
                     const TextField(
                       readOnly: true,
                       decoration: InputDecoration(
-                        hintText: "mina_almira",
+                        hintText: "User",
                         border: OutlineInputBorder(),
                         isDense: true,
                         contentPadding: EdgeInsets.symmetric(horizontal: 12, vertical: 10),

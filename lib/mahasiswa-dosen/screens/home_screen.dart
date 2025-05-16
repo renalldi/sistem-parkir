@@ -16,7 +16,7 @@ class HomeScreen extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              Text("Hi, Mina!", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+              Text("Hi, User!", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
               Text("Need to find a spot at Fasilkom?"),
             ],
           ),
