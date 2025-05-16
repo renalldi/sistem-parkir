@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sistem_parkir/mahasiswa-dosen/screens/main_screen.dart';
+import 'package:sistem_parkir/screens/main_screen.dart';
 
 class RoleSelectionScreen extends StatelessWidget {
   void _selectRole(BuildContext context,String role) {
