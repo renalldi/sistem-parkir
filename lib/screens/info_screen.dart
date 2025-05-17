@@ -13,10 +13,7 @@ class _InfoScreenState extends State<InfoScreen> {
   void initState() {
     super.initState();
     Timer(Duration(seconds: 3), () {
-      Navigator.pushReplacement(
-        context,
-        MaterialPageRoute(builder: (_) => LocationPermissionScreen()),
-      );
+      Navigator.pushReplacementNamed(context, '/location');
     });
   }
   

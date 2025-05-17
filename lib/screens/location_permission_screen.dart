@@ -6,7 +6,7 @@ class LocationPermissionScreen extends StatelessWidget {
   Future<void> _requestLocation(BuildContext context) async {
     var status = await Permission.location.request();
     if (status.isGranted) {
-      Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => RoleSelectionScreen()));
+      Navigator.pushReplacementNamed(context, '/role');
     } else {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text('Izin Lokasi diperlukan untuk lanjut ke halaman selanjutnya')),
@@ -31,7 +31,7 @@ class LocationPermissionScreen extends StatelessWidget {
             ),
             TextButton(
               onPressed: () {
-                Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => RoleSelectionScreen()));
+                Navigator.pushReplacementNamed(context, '/role');
               },
               child: Text('Not Now'),
             )

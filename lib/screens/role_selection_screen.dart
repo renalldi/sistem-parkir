@@ -1,18 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:sistem_parkir/screens/main_screen.dart';
+// import 'package:sistem_parkir/screens/main_screen.dart';
+// import 'package:sistem_parkir/screens/auth/login_petugas.dart';
 
 class RoleSelectionScreen extends StatelessWidget {
-  void _selectRole(BuildContext context,String role) {
+  void _selectRole(BuildContext context, String role) {
     // Mengarahkan ke halaman sesuai role
     if (role == 'User') {
-      Navigator.pushReplacement(context, 
-      MaterialPageRoute(
-        builder: (_) => MainScreen(username: 'User')));
-    } 
-    // DIBUAT SAMA ANGGITA
-    // else if (role == 'Petugas') {
-    //   Navigator.pushReplacementNamed(context, 'role_selection_screen');
-    // }
+      Navigator.pushReplacementNamed(context, '/main'); // menuju HomeScreen
+    } else if (role == 'Petugas') {
+      Navigator.pushReplacementNamed(context, '/login-petugas'); // menuju LoginPetugas
+    }
   }
 
   @override

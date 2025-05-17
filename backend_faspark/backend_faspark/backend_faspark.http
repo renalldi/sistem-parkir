@@ -1,0 +1,6 @@
+@backend_faspark_HostAddress = http://localhost:5004
+
+GET {{backend_faspark_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

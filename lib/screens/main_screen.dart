@@ -4,8 +4,7 @@ import 'profile_screen.dart';
 import 'park_view_screen.dart';
 
 class MainScreen extends StatefulWidget {
-  final String username;
-  const MainScreen({super.key, required this.username});
+  const MainScreen({super.key});
 
   @override
   State<MainScreen> createState() => _MainScreenState();

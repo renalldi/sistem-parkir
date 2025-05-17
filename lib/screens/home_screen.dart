@@ -14,17 +14,25 @@ class HomeScreen extends StatelessWidget {
         Padding(
           padding: EdgeInsets.all(16),
           child: Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text("Hi, User!", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
-              Text("Need to find a spot at Fasilkom?"),
+              Text("Hi, User!",
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+              SizedBox(height: 4),
+              Text(
+                "Need to find a spot at Fasilkom?",
+                style: TextStyle(
+                    fontSize: 24,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.black87),
+              ),
             ],
           ),
         ),
         Padding(
           padding: EdgeInsets.symmetric(horizontal: 16),
           child: Container(
-            padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+            padding: EdgeInsets.symmetric(horizontal: 12, vertical: 12),
             decoration: BoxDecoration(
               color: Colors.white,
               borderRadius: BorderRadius.circular(12),
@@ -39,11 +47,15 @@ class HomeScreen extends StatelessWidget {
             child: Row(
               children: [
                 Icon(Icons.search, color: Colors.grey[700]),
-                SizedBox(height: 8),
+                SizedBox(width: 8), // <--- perbaikan di sini
                 Expanded(
                   child: Text(
                     "Fakultas Ilmu Komputer",
-                    style: TextStyle(color: Colors.grey[800]),
+                    style: TextStyle(
+                      color: Colors.grey[800],
+                      fontSize: 16,
+                      fontWeight: FontWeight.w600,
+                    ),
                   ),
                 ),
                 Icon(Icons.settings, color: Colors.grey[700]),
@@ -51,6 +63,7 @@ class HomeScreen extends StatelessWidget {
             ),
           ),
         ),
+        SizedBox(height: 8),
         Expanded(
           child: FlutterMap(
             mapController: MapController(),
@@ -60,7 +73,8 @@ class HomeScreen extends StatelessWidget {
             ),
             children: [
               TileLayer(
-                urlTemplate: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                urlTemplate:
+                    'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
                 subdomains: ['a', 'b', 'c'],
                 userAgentPackageName: 'com.mahasiswa_dosen.app',
               ),
@@ -70,11 +84,8 @@ class HomeScreen extends StatelessWidget {
                     point: lokasifasilkom,
                     width: 80,
                     height: 80,
-                    child: const Icon(
-                      Icons.location_on,
-                      color: Colors.red,
-                      size: 40
-                    ),
+                    child: const Icon(Icons.location_on,
+                        color: Colors.red, size: 40),
                   ),
                 ],
               ),
