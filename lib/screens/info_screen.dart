@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
-import 'location_permission_screen.dart';
 
 class InfoScreen extends StatefulWidget {
   @override

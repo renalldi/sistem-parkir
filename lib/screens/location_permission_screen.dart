@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'role_selection_screen.dart';
 import 'package:permission_handler/permission_handler.dart';
 
 class LocationPermissionScreen extends StatelessWidget {

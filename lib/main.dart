@@ -19,8 +19,8 @@ import 'screens/role_selection_screen.dart';
 import 'screens/info_screen.dart';
 import 'screens/location_permission_screen.dart';
 import 'screens/main_screen.dart';
-import 'screens/home_screen.dart';
-import 'screens/park_view_screen.dart';
+// import 'screens/home_screen.dart';
+// import 'screens/park_view_screen.dart';
 
 void main() {
   runApp(
@@ -72,6 +72,8 @@ class FasParkApp extends StatelessWidget {
             return MaterialPageRoute(builder: (_) => MainScreen());
           case '/profile':
             return MaterialPageRoute(builder: (_) => ProfileScreen());
+          case '/form':
+            return MaterialPageRoute(builder: (_) => FormReportPage());
           case '/record':
             final args = settings.arguments;
             if (args != null) {

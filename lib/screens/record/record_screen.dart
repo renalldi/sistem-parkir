@@ -36,7 +36,7 @@ class _RecordScreenState extends State<RecordScreen> {
         leading: IconButton(
           icon: const Icon(Icons.arrow_back, color: Colors.black),
           onPressed: () {
-            Navigator.pop(context);
+            Navigator.pushReplacementNamed(context, '/form');
           },
         ),
         title: Text(
