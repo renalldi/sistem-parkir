@@ -28,9 +28,9 @@ class ParkViewScreen extends StatelessWidget {
         child: Column(
           children: [
             const SizedBox(height: 16),
-            const Text("View Spot", style: TextStyle(fontSize: 20)),
+            const Text("Denah Parkir Fasilkom", style: TextStyle(fontSize: 20)),
             const SizedBox(height: 8),
-            const Text("Total 60% Available", style: TextStyle(color: Colors.grey)),
+            const Text("3 Tempat Parkir Mahasiswa & 1 Tempat Parkir Dosen", style: TextStyle(color: Colors.grey)),
             const SizedBox(height: 16),
             Expanded(
               child: Center(
@@ -57,7 +57,7 @@ class ParkViewScreen extends StatelessWidget {
                                 borderRadius: BorderRadius.circular(8),
                               ),
                               child: const Center(
-                                child: Text("Student Parking", style: TextStyle(color: Colors.white)),
+                                child: Text("Student Parking 2", style: TextStyle(color: Colors.white)),
                               ),
                             ),
                             const SizedBox(height: 2),
@@ -84,7 +84,7 @@ class ParkViewScreen extends StatelessWidget {
                                 child: const RotatedBox(
                                   quarterTurns: 3,
                                   child: Center(
-                                    child: Text("Student Parking", style: TextStyle(color: Colors.white)),
+                                    child: Text("Student Parking 1", style: TextStyle(color: Colors.white)),
                                   ),
                                 ),
                               ),
@@ -114,7 +114,7 @@ class ParkViewScreen extends StatelessWidget {
                                 child: const RotatedBox(
                                   quarterTurns: 3,
                                   child: Center(
-                                    child: Text("Student Parking", style: TextStyle(color: Colors.white, fontSize: 10)),
+                                    child: Text("Student Parking 3", style: TextStyle(color: Colors.white, fontSize: 10)),
                                   ),
                                 ),
                               ),
