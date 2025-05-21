@@ -1,17 +1,36 @@
 import 'package:flutter/material.dart';
 import 'package:permission_handler/permission_handler.dart';
+import 'package:geolocator/geolocator.dart';
 
 class LocationPermissionScreen extends StatelessWidget {
   Future<void> _requestLocation(BuildContext context) async {
-    var status = await Permission.location.request();
-    if (status.isGranted) {
-      Navigator.pushReplacementNamed(context, '/role');
-    } else {
+  var status = await Permission.location.request();
+
+  if (status.isGranted) {
+    bool serviceEnabled = await Geolocator.isLocationServiceEnabled();
+    if (!serviceEnabled) {
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Izin Lokasi diperlukan untuk lanjut ke halaman selanjutnya')),
+        SnackBar(content: Text('Layanan lokasi di perangkat belum aktif. Aktifkan dulu di pengaturan.')),
       );
+      return;
     }
+
+    LocationPermission permission = await Geolocator.checkPermission();
+    if (permission == LocationPermission.deniedForever) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('Izin lokasi ditolak secara permanen. Aktifkan secara manual di pengaturan.')),
+      );
+      return;
+    }
+
+    Navigator.pushReplacementNamed(context, '/role');
+  } else {
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(content: Text('Izin Lokasi diperlukan untuk lanjut ke halaman selanjutnya')),
+    );
   }
+}
+
 
   @override
   Widget build(BuildContext context) {
@@ -30,7 +49,9 @@ class LocationPermissionScreen extends StatelessWidget {
             ),
             TextButton(
               onPressed: () {
-                Navigator.pushReplacementNamed(context, '/role');
+                ScaffoldMessenger.of(context).showSnackBar(
+                  SnackBar(content: Text("Izin Lokasi Diperlukan Untuk Menggunakan Aplikasi Ini"))
+                );
               },
               child: Text('Not Now'),
             )

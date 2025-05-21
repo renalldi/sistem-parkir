@@ -11,7 +11,7 @@ class _InfoScreenState extends State<InfoScreen> {
 
   void initState() {
     super.initState();
-    Timer(Duration(seconds: 3), () {
+    Timer(Duration(seconds: 2), () {
       Navigator.pushReplacementNamed(context, '/location');
     });
   }
