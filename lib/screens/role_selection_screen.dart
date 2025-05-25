@@ -6,7 +6,7 @@ class RoleSelectionScreen extends StatelessWidget {
   void _selectRole(BuildContext context, String role) {
     // Mengarahkan ke halaman sesuai role
     if (role == 'User') {
-      Navigator.pushReplacementNamed(context, '/main'); // menuju HomeScreen
+      Navigator.pushReplacementNamed(context, '/login-user'); // menuju halaman login
     } else if (role == 'Petugas') {
       Navigator.pushReplacementNamed(context, '/login-petugas'); // menuju LoginPetugas
     }

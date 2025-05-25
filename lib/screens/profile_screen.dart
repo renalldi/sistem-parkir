@@ -1,10 +1,34 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import '../providers/auth_provider.dart';
 
-class ProfileScreen extends StatelessWidget {
+class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});
 
   @override
+  State<ProfileScreen> createState() => _ProfileScreenState();
+}
+
+class _ProfileScreenState extends State<ProfileScreen> {
+  late TextEditingController _usernameController;
+
+  @override
+  void initState() {
+    super.initState();
+    final authProvider = Provider.of<AuthProvider>(context, listen: false);
+    _usernameController = TextEditingController(text: authProvider.username ?? "User");
+  }
+
+  @override
+  void dispose() {
+    _usernameController.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
+    final authProvider = Provider.of<AuthProvider>(context);
+
     return Scaffold(
       backgroundColor: const Color(0xFFF1EFCF),
       body: SafeArea(
@@ -39,9 +63,9 @@ class ProfileScreen extends StatelessWidget {
                     child: Icon(Icons.person, size: 50, color: Colors.grey),
                   ),
                   const SizedBox(height: 8),
-                  const Text(
-                    "User",
-                    style: TextStyle(
+                  Text(
+                    authProvider.username ?? "User",
+                    style: const TextStyle(
                       fontSize: 18,
                       fontWeight: FontWeight.w600,
                     ),
@@ -57,16 +81,18 @@ class ProfileScreen extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const Text("Username",
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 14,
-                        )),
+                    const Text(
+                      "Username",
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 14,
+                      ),
+                    ),
                     const SizedBox(height: 8),
-                    const TextField(
+                    TextField(
                       readOnly: true,
-                      decoration: InputDecoration(
-                        hintText: "User",
+                      controller: _usernameController,
+                      decoration: const InputDecoration(
                         border: OutlineInputBorder(),
                         isDense: true,
                         contentPadding: EdgeInsets.symmetric(horizontal: 12, vertical: 10),
@@ -74,15 +100,36 @@ class ProfileScreen extends StatelessWidget {
                     ),
                     const Spacer(),
 
+                    // Edit Profile
+                    Center(
+                      child: ElevatedButton(
+                        onPressed: () {
+                          Navigator.pushNamed(context, '/edit-profile');
+                        },
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: const Color(0xFFD5BA40),
+                          padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(6),
+                            side: const BorderSide(color: Color(0xFFD5BA40)),
+                          ),
+                        ),
+                        child: const Text(
+                          "Edit Profile",
+                          style: TextStyle(color: Colors.black),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(height: 16),
+
                     // Logout button
                     Center(
                       child: ElevatedButton(
                         onPressed: () {
-                          // Logout action: misalnya kembali ke role selection
                           Navigator.pushNamedAndRemoveUntil(context, '/role', (route) => false);
                         },
                         style: ElevatedButton.styleFrom(
-                          backgroundColor: Color(0xFFD5BA40),
+                          backgroundColor: const Color(0xFFD5BA40),
                           padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(6),

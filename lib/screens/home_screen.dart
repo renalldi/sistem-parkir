@@ -2,17 +2,29 @@ import 'package:flutter/material.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart';
 
-class HomeScreen extends StatelessWidget {
+class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 
-  final LatLng lokasifasilkom = const LatLng(-8.165942440434762, 113.71687656035348);
+  @override
+  State<HomeScreen> createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends State<HomeScreen> {
+  final MapController _mapController = MapController();
+
+  final Map<String, LatLng> lokasiTujuan = {
+    "Fakultas Ilmu Komputer": LatLng(-8.165942440434762, 113.71687656035348),
+    "Universitas Jember (UNEJ)": LatLng(-8.16501953086277, 113.71639153808526),
+  };
+
+  String selectedLokasi = "Fakultas Ilmu Komputer";
 
   @override
   Widget build(BuildContext context) {
     return Column(
       children: [
         Padding(
-          padding: EdgeInsets.all(16),
+          padding: EdgeInsets.all(8),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -30,9 +42,9 @@ class HomeScreen extends StatelessWidget {
           ),
         ),
         Padding(
-          padding: EdgeInsets.symmetric(horizontal: 16),
+          padding: EdgeInsets.symmetric(horizontal: 8),
           child: Container(
-            padding: EdgeInsets.symmetric(horizontal: 12, vertical: 12),
+            padding: EdgeInsets.symmetric(horizontal: 6, vertical: 6),
             decoration: BoxDecoration(
               color: Colors.white,
               borderRadius: BorderRadius.circular(12),
@@ -47,18 +59,33 @@ class HomeScreen extends StatelessWidget {
             child: Row(
               children: [
                 Icon(Icons.search, color: Colors.grey[700]),
-                SizedBox(width: 8), // <--- perbaikan di sini
+                SizedBox(width: 8),
                 Expanded(
-                  child: Text(
-                    "Fakultas Ilmu Komputer",
-                    style: TextStyle(
-                      color: Colors.grey[800],
-                      fontSize: 16,
-                      fontWeight: FontWeight.w600,
+                  child: DropdownButtonHideUnderline(
+                    child: DropdownButton<String>(
+                      value: selectedLokasi,
+                      items: lokasiTujuan.keys.map((String namaLokasi) {
+                        return DropdownMenuItem<String>(
+                          value: namaLokasi,
+                          child: Text(
+                            namaLokasi,
+                            style: TextStyle(
+                                fontSize: 14, fontWeight: FontWeight.w500),
+                          ),
+                        );
+                      }).toList(),
+                      onChanged: (value) {
+                        if (value != null) {
+                          setState(() {
+                            selectedLokasi = value;
+                          });
+                          _mapController.move(
+                              lokasiTujuan[value]!, _mapController.camera.zoom);
+                        }
+                      },
                     ),
                   ),
                 ),
-                Icon(Icons.settings, color: Colors.grey[700]),
               ],
             ),
           ),
@@ -66,9 +93,9 @@ class HomeScreen extends StatelessWidget {
         SizedBox(height: 8),
         Expanded(
           child: FlutterMap(
-            mapController: MapController(),
+            mapController: _mapController,
             options: MapOptions(
-              initialCenter: lokasifasilkom,
+              initialCenter: lokasiTujuan[selectedLokasi]!,
               initialZoom: 17.0,
             ),
             children: [
@@ -79,15 +106,20 @@ class HomeScreen extends StatelessWidget {
                 userAgentPackageName: 'com.mahasiswa_dosen.app',
               ),
               MarkerLayer(
-                markers: [
-                  Marker(
-                    point: lokasifasilkom,
+                markers: lokasiTujuan.entries.map((entry) {
+                  return Marker(
+                    point: entry.value,
                     width: 80,
                     height: 80,
-                    child: const Icon(Icons.location_on,
-                        color: Colors.red, size: 40),
-                  ),
-                ],
+                    child: Icon(
+                      Icons.location_on,
+                      color: entry.key == selectedLokasi
+                          ? Colors.red
+                          : Colors.grey[400],
+                      size: 40,
+                    ),
+                  );
+                }).toList(),
               ),
             ],
           ),
@@ -96,6 +128,7 @@ class HomeScreen extends StatelessWidget {
     );
   }
 }
+
 
 
 // Expanded(

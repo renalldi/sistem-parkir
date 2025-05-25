@@ -2,10 +2,13 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:device_preview/device_preview.dart';
 import 'package:provider/provider.dart';
+import 'package:sistem_parkir/screens/auth/login_user_screen.dart';
+import 'package:sistem_parkir/screens/auth/register_user_screen.dart';
 
 // Import Providers
 import 'providers/report_provider.dart';
 import 'providers/record_provider.dart';
+import 'providers/auth_provider.dart';
 
 // Screens Petugas
 import 'screens/auth/login_petugas.dart';
@@ -19,8 +22,7 @@ import 'screens/role_selection_screen.dart';
 import 'screens/info_screen.dart';
 import 'screens/location_permission_screen.dart';
 import 'screens/main_screen.dart';
-// import 'screens/home_screen.dart';
-// import 'screens/park_view_screen.dart';
+import 'screens/edit_profile_screen.dart';
 
 void main() {
   runApp(
@@ -30,13 +32,13 @@ void main() {
         providers: [
           ChangeNotifierProvider(create: (_) => ReportProvider()),
           ChangeNotifierProvider(create: (_) => RecordProvider()),
+          ChangeNotifierProvider(create: (_) => AuthProvider()),
         ],
         child: const FasParkApp(),
       ),
     ),
   );
 }
-
 
 class FasParkApp extends StatelessWidget {
   const FasParkApp({super.key});
@@ -70,8 +72,14 @@ class FasParkApp extends StatelessWidget {
             return MaterialPageRoute(builder: (_) => LoginPetugas());
           case '/main':
             return MaterialPageRoute(builder: (_) => MainScreen());
-          case '/profile':
+          case '/profile-user':
             return MaterialPageRoute(builder: (_) => ProfileScreen());
+          case '/register-user':
+            return MaterialPageRoute(builder: (_) => RegisterUserScreen());
+          case '/login-user':
+            return MaterialPageRoute(builder: (_) => LoginUserScreen());
+          case '/edit-profile':
+            return MaterialPageRoute(builder: (_) => EditProfileScreen());
           case '/form':
             return MaterialPageRoute(builder: (_) => FormReportPage());
           case '/record':
@@ -96,4 +104,3 @@ class FasParkApp extends StatelessWidget {
     );
   }
 }
-

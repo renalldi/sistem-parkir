@@ -135,6 +135,7 @@ class _ParkViewScreenState extends State<ParkViewScreen> {
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 12),
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   buildParkingCard("Mahasiswa 1", studentLeft),
                   buildParkingCard("Mahasiswa 2", studentTop),
@@ -266,21 +267,34 @@ class _ParkViewScreenState extends State<ParkViewScreen> {
   }
 
   Widget buildParkingCard(String title, double percent) {
-    return Expanded(
+    return SizedBox(
+      width: 90,
+      height: 90,
       child: Container(
         padding: const EdgeInsets.all(8),
-        margin: const EdgeInsets.symmetric(horizontal: 4),
         decoration: BoxDecoration(
           color: getColorDashboard(percent),
           borderRadius: BorderRadius.circular(12),
         ),
         child: Column(
-          mainAxisSize: MainAxisSize.min,
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text(title, style: const TextStyle(color: Colors.white, fontSize: 11, fontWeight: FontWeight.bold)),
+            Text(
+              title,
+              style: const TextStyle(
+                color: Colors.white,
+                fontSize: 11,
+                fontWeight: FontWeight.bold,
+              ),
+              textAlign: TextAlign.center,
+            ),
             const SizedBox(height: 4),
             Text("${percent.toInt()}%", style: const TextStyle(color: Colors.white)),
-            Text(getStatus(percent), style: const TextStyle(color: Colors.white, fontSize: 10)),
+            Text(
+              getStatus(percent),
+              style: const TextStyle(color: Colors.white, fontSize: 10),
+              textAlign: TextAlign.center,
+            ),
           ],
         ),
       ),
