@@ -9,8 +9,9 @@ namespace backend_faspark.Database
         {
         }
 
-        public DbSet<User> Users { get; set; }
+        public DbSet<Petugas> Petugas { get; set; }
         public DbSet<Report> Reports { get; set; }
+        public DbSet<User> Users { get; set; }
 
     }
 }
