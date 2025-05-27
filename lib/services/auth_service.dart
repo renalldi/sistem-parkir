@@ -19,7 +19,27 @@ class AuthService {
           'password': password,
         }),
       );
-    
+
+        // DEBUGGING
+      print('AuthService Login Status Code: ${response.statusCode}');
+      print('Login Response Headers: ${response.headers}');
+      print('AuthService Login Response Body: ${response.body}');
+
+      if (response.statusCode == 307) { // Secara eksplisit tangani 307
+        String? newLocation = response.headers['location']; // atau 'Location' (case-insensitive)
+        print('Server mengarahkan ke: $newLocation');
+        return {
+          'success': false,
+          'message': 'Server meminta redirect ke $newLocation (Status: 307). Perlu penyesuaian URL atau server.',
+        };
+      }
+
+      if (response.body.isEmpty) {
+        return {
+          'success': false,
+          'message': 'Error: Respons dari server kosong (Status: ${response.statusCode})',
+        };
+      }
 
       final data = jsonDecode(response.body);
 

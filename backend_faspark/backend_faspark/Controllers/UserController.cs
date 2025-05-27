@@ -97,19 +97,5 @@ namespace backend_faspark.Controllers
 
             return Ok(new { message = "Profil Berhasil Diperbarui", user});
         }
-
-        [HttpDelete("delete/{id}")]
-        public async Task<IActionResult> DeleteProfile (int id)
-        {
-            var user = await _context.Users.FindAsync (id);
-            if (user == null)
-            {
-                return NotFound(new { message = "User tidak ditemukan" });
-            }
-            _context.Users.Remove(user);
-            await _context.SaveChangesAsync();
-
-            return Ok(new { message = "User berhasil dihapus"});
-        }
     }
 }

@@ -1,5 +1,3 @@
-// ignore_for_file: use_build_context_synchronously
-
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:sistem_parkir/services/user_service.dart';
@@ -16,14 +14,15 @@ class _LoginUserScreenState extends State<LoginUserScreen> {
   final _usernameController = TextEditingController();
   final _passwordController = TextEditingController();
   bool _isLoading = false;
+  bool _obscureText = true;
 
   void _login() async {
     setState(() => _isLoading = true);
     final response = await UserService.login(
       _usernameController.text,
       _passwordController.text,
-      );
-    
+    );
+
     if (response['success']) {
       final user = response['user'];
       Provider.of<AuthProvider>(context, listen: false).login(
@@ -44,37 +43,84 @@ class _LoginUserScreenState extends State<LoginUserScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Login")),
-      body: Padding(
-        padding: const EdgeInsets.all(16),
-        child: Column(
-          children: [
-            TextField(
-              controller: _usernameController,
-              decoration: const InputDecoration(labelText: "Username"),
-            ),
-            const SizedBox(height: 16),
-            TextField(
-              controller: _passwordController,
-              decoration: const InputDecoration(labelText: "Password"),
-              obscureText: true,
-            ),
-            const SizedBox(height: 24),
-            _isLoading
-              ? const CircularProgressIndicator()
-              : ElevatedButton(
-                  onPressed: _login,
-                  child: const Text("Login"),
+      backgroundColor: const Color(0xFFF9F4D1),
+      body: Center(
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 32),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              const Text(
+                "Sign In",
+                style: TextStyle(
+                  fontSize: 24,
+                  fontWeight: FontWeight.bold,
                 ),
-            const SizedBox(height: 12),
-            TextButton(
-              onPressed: () {
-                Navigator.pushReplacementNamed(context, "/register-user");
-              },
-              child: const Text("Belum punya akun? Daftar disini"),
-            ),
-          ],
-        )
+              ),
+              const SizedBox(height: 32),
+              TextField(
+                controller: _usernameController,
+                decoration: InputDecoration(
+                  hintText: "Username",
+                  filled: true,
+                  fillColor: Colors.grey.shade200,
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(8),
+                    borderSide: BorderSide.none,
+                  ),
+                ),
+              ),
+              const SizedBox(height: 16),
+              TextField(
+                controller: _passwordController,
+                obscureText: _obscureText,
+                decoration: InputDecoration(
+                  hintText: "Password",
+                  filled: true,
+                  fillColor: Colors.grey.shade200,
+                  suffixIcon: IconButton(
+                    icon: Icon(
+                      _obscureText ? Icons.visibility_off : Icons.visibility,
+                    ),
+                    onPressed: () =>
+                        setState(() => _obscureText = !_obscureText),
+                  ),
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(8),
+                    borderSide: BorderSide.none,
+                  ),
+                ),
+              ),
+              const SizedBox(height: 24),
+              _isLoading
+                  ? const CircularProgressIndicator()
+                  : SizedBox(
+                      width: double.infinity,
+                      child: ElevatedButton(
+                        onPressed: _login,
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: const Color(0xFFD7B54A),
+                          padding: const EdgeInsets.symmetric(vertical: 16),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(8),
+                          ),
+                        ),
+                        child: const Text(
+                          "Sign In",
+                          style: TextStyle(color: Colors.white),
+                        ),
+                      ),
+                    ),
+              const SizedBox(height: 12),
+              TextButton(
+                onPressed: () {
+                  Navigator.pushReplacementNamed(context, "/register-user");
+                },
+                child: const Text("Belum punya akun? Daftar disini"),
+              ),
+            ],
+          ),
+        ),
       ),
     );
   }

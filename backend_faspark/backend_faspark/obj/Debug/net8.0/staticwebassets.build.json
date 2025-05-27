@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "h0Z1/RvArZjKmMGJrq61KW/BA4+Ut6PW0kh1LBy2iVs=",
+  "Hash": "FclnJXFEqmPHw8/0FvfqyGNv5V0KJeJoSUcVSlCdt9s=",
   "Source": "backend_faspark",
   "BasePath": "_content/backend_faspark",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "backend_faspark\\wwwroot",
       "Source": "backend_faspark",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\0927900d-0fcd-46f6-a2df-85eb9accabd0.jpg",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\0927900d-0fcd-46f6-a2df-85eb9accabd0.jpg",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/0927900d-0fcd-46f6-a2df-85eb9accabd0.jpg",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\0927900d-0fcd-46f6-a2df-85eb9accabd0.jpg"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\17c095b4-7b7b-4645-9df5-cf7c7d1a208f.png",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\17c095b4-7b7b-4645-9df5-cf7c7d1a208f.png",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/17c095b4-7b7b-4645-9df5-cf7c7d1a208f.png",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\17c095b4-7b7b-4645-9df5-cf7c7d1a208f.png"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\29ce1d02-1ef5-4bbf-824d-2040d077df7e.jpeg",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\29ce1d02-1ef5-4bbf-824d-2040d077df7e.jpeg",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/29ce1d02-1ef5-4bbf-824d-2040d077df7e.jpeg",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\29ce1d02-1ef5-4bbf-824d-2040d077df7e.jpeg"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\344e0a39-967b-4a44-a7fd-537024732f34.jpeg",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\344e0a39-967b-4a44-a7fd-537024732f34.jpeg",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/344e0a39-967b-4a44-a7fd-537024732f34.jpeg",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\344e0a39-967b-4a44-a7fd-537024732f34.jpeg"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\39d369f0-f887-493a-bfeb-c1bd6e7d4279.png",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\39d369f0-f887-493a-bfeb-c1bd6e7d4279.png",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/39d369f0-f887-493a-bfeb-c1bd6e7d4279.png",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\39d369f0-f887-493a-bfeb-c1bd6e7d4279.png"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\3ab6e276-e221-4cb8-ac42-342958859425.png",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\3ab6e276-e221-4cb8-ac42-342958859425.png",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/3ab6e276-e221-4cb8-ac42-342958859425.png",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\3ab6e276-e221-4cb8-ac42-342958859425.png"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\3ebd0c8c-847b-46e5-8e6c-e9337362eb73.jpg",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\3ebd0c8c-847b-46e5-8e6c-e9337362eb73.jpg",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/3ebd0c8c-847b-46e5-8e6c-e9337362eb73.jpg",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\3ebd0c8c-847b-46e5-8e6c-e9337362eb73.jpg"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\4034eed5-9091-44cf-94b0-d6ab55368b74.jpg",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\4034eed5-9091-44cf-94b0-d6ab55368b74.jpg",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/4034eed5-9091-44cf-94b0-d6ab55368b74.jpg",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\4034eed5-9091-44cf-94b0-d6ab55368b74.jpg"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\41928a54-5b8a-4137-b253-64d4522e0e32.jpeg",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\41928a54-5b8a-4137-b253-64d4522e0e32.jpeg",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/41928a54-5b8a-4137-b253-64d4522e0e32.jpeg",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\41928a54-5b8a-4137-b253-64d4522e0e32.jpeg"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\43d5e354-1e9a-479b-a971-73b2e546741a.png",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\43d5e354-1e9a-479b-a971-73b2e546741a.png",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/43d5e354-1e9a-479b-a971-73b2e546741a.png",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\43d5e354-1e9a-479b-a971-73b2e546741a.png"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\498ce0a6-388f-4c09-afb2-8260e516827b.jpeg",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\498ce0a6-388f-4c09-afb2-8260e516827b.jpeg",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/498ce0a6-388f-4c09-afb2-8260e516827b.jpeg",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\498ce0a6-388f-4c09-afb2-8260e516827b.jpeg"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\4b74cf84-2d6a-440c-95da-aec7bde75839.jpeg",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\4b74cf84-2d6a-440c-95da-aec7bde75839.jpeg",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/4b74cf84-2d6a-440c-95da-aec7bde75839.jpeg",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\4b74cf84-2d6a-440c-95da-aec7bde75839.jpeg"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\4b7c8f4e-2784-4ef0-8baa-57393eb29389.jpeg",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\4b7c8f4e-2784-4ef0-8baa-57393eb29389.jpeg",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/4b7c8f4e-2784-4ef0-8baa-57393eb29389.jpeg",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\4b7c8f4e-2784-4ef0-8baa-57393eb29389.jpeg"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\4d764086-3b56-4587-a475-3e571c3549cd.png",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\4d764086-3b56-4587-a475-3e571c3549cd.png",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/4d764086-3b56-4587-a475-3e571c3549cd.png",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\4d764086-3b56-4587-a475-3e571c3549cd.png"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\4eb43ed6-91a0-4665-adda-1cdd17e9e609.png",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\4eb43ed6-91a0-4665-adda-1cdd17e9e609.png",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/4eb43ed6-91a0-4665-adda-1cdd17e9e609.png",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\4eb43ed6-91a0-4665-adda-1cdd17e9e609.png"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\50e67150-a5d0-4538-9b3e-1ae20944c2cb.png",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\50e67150-a5d0-4538-9b3e-1ae20944c2cb.png",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/50e67150-a5d0-4538-9b3e-1ae20944c2cb.png",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\50e67150-a5d0-4538-9b3e-1ae20944c2cb.png"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\52f8e02b-f7dc-441d-aa17-ecf9463cbcd1.png",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\52f8e02b-f7dc-441d-aa17-ecf9463cbcd1.png",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/52f8e02b-f7dc-441d-aa17-ecf9463cbcd1.png",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\52f8e02b-f7dc-441d-aa17-ecf9463cbcd1.png"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\59ac9019-f7eb-445f-a1ae-09e13297c5be.png",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\59ac9019-f7eb-445f-a1ae-09e13297c5be.png",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/59ac9019-f7eb-445f-a1ae-09e13297c5be.png",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\59ac9019-f7eb-445f-a1ae-09e13297c5be.png"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\5a78d760-6913-4889-87b4-8bfd1fa070b7.jpg",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\5a78d760-6913-4889-87b4-8bfd1fa070b7.jpg",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/5a78d760-6913-4889-87b4-8bfd1fa070b7.jpg",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\5a78d760-6913-4889-87b4-8bfd1fa070b7.jpg"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\5f5a8d21-2594-4aac-9444-24d721b38ce5.jpeg",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\5f5a8d21-2594-4aac-9444-24d721b38ce5.jpeg",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/5f5a8d21-2594-4aac-9444-24d721b38ce5.jpeg",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\5f5a8d21-2594-4aac-9444-24d721b38ce5.jpeg"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\680a549b-1e8c-4854-8531-14e5b69359ab.png",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\680a549b-1e8c-4854-8531-14e5b69359ab.png",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/680a549b-1e8c-4854-8531-14e5b69359ab.png",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\680a549b-1e8c-4854-8531-14e5b69359ab.png"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\6937d950-fb27-43c0-b4f9-8c5f3e7a6b6f.jpeg",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\6937d950-fb27-43c0-b4f9-8c5f3e7a6b6f.jpeg",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/6937d950-fb27-43c0-b4f9-8c5f3e7a6b6f.jpeg",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\6937d950-fb27-43c0-b4f9-8c5f3e7a6b6f.jpeg"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\6c00c19e-77a6-458a-8228-1eead859f3fb.jpeg",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\6c00c19e-77a6-458a-8228-1eead859f3fb.jpeg",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/6c00c19e-77a6-458a-8228-1eead859f3fb.jpeg",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\6c00c19e-77a6-458a-8228-1eead859f3fb.jpeg"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\6cfaf1e1-021a-4f7b-913c-696ddf856980.png",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\6cfaf1e1-021a-4f7b-913c-696ddf856980.png",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/6cfaf1e1-021a-4f7b-913c-696ddf856980.png",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\6cfaf1e1-021a-4f7b-913c-696ddf856980.png"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\6e8e1a22-0a28-4863-b983-9fd5dfd32af0.png",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\6e8e1a22-0a28-4863-b983-9fd5dfd32af0.png",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/6e8e1a22-0a28-4863-b983-9fd5dfd32af0.png",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\6e8e1a22-0a28-4863-b983-9fd5dfd32af0.png"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\6eee6a8e-03f4-483d-bb31-8ab676fefbea.png",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\6eee6a8e-03f4-483d-bb31-8ab676fefbea.png",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/6eee6a8e-03f4-483d-bb31-8ab676fefbea.png",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\6eee6a8e-03f4-483d-bb31-8ab676fefbea.png"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\71efeb0b-abce-433c-9db9-a6102841896b.jpeg",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\71efeb0b-abce-433c-9db9-a6102841896b.jpeg",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/71efeb0b-abce-433c-9db9-a6102841896b.jpeg",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\71efeb0b-abce-433c-9db9-a6102841896b.jpeg"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\781ac927-650c-4e7a-8bc8-e206fbd5b03e.jpg",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\781ac927-650c-4e7a-8bc8-e206fbd5b03e.jpg",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/781ac927-650c-4e7a-8bc8-e206fbd5b03e.jpg",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\781ac927-650c-4e7a-8bc8-e206fbd5b03e.jpg"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\9e7cf294-85b2-4c32-9bc3-03a9dc710394.png",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\9e7cf294-85b2-4c32-9bc3-03a9dc710394.png",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/9e7cf294-85b2-4c32-9bc3-03a9dc710394.png",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\9e7cf294-85b2-4c32-9bc3-03a9dc710394.png"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\a2a01056-c589-4459-b029-565e66e42977.png",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\a2a01056-c589-4459-b029-565e66e42977.png",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/a2a01056-c589-4459-b029-565e66e42977.png",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\a2a01056-c589-4459-b029-565e66e42977.png"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\a3c812b2-380c-46fc-ab8c-56a375157ba1.jpeg",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\a3c812b2-380c-46fc-ab8c-56a375157ba1.jpeg",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/a3c812b2-380c-46fc-ab8c-56a375157ba1.jpeg",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\a3c812b2-380c-46fc-ab8c-56a375157ba1.jpeg"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\a95430f1-6e85-47de-86e2-386ce3df18ce.png",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\a95430f1-6e85-47de-86e2-386ce3df18ce.png",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/a95430f1-6e85-47de-86e2-386ce3df18ce.png",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\a95430f1-6e85-47de-86e2-386ce3df18ce.png"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\b9224b74-0495-489a-abb8-27e42e7c4f99.jpeg",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\b9224b74-0495-489a-abb8-27e42e7c4f99.jpeg",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/b9224b74-0495-489a-abb8-27e42e7c4f99.jpeg",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\b9224b74-0495-489a-abb8-27e42e7c4f99.jpeg"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\bbcbf39f-dcd6-44b2-ac0f-22b23f5e5399.jpeg",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\bbcbf39f-dcd6-44b2-ac0f-22b23f5e5399.jpeg",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/bbcbf39f-dcd6-44b2-ac0f-22b23f5e5399.jpeg",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\bbcbf39f-dcd6-44b2-ac0f-22b23f5e5399.jpeg"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\c214a3b5-b9f9-45eb-8573-84d81b53ddfa.png",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\c214a3b5-b9f9-45eb-8573-84d81b53ddfa.png",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/c214a3b5-b9f9-45eb-8573-84d81b53ddfa.png",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\c214a3b5-b9f9-45eb-8573-84d81b53ddfa.png"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\c357ea30-2778-474d-a7cb-660d21bbeb1e.jpeg",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\c357ea30-2778-474d-a7cb-660d21bbeb1e.jpeg",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/c357ea30-2778-474d-a7cb-660d21bbeb1e.jpeg",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\c357ea30-2778-474d-a7cb-660d21bbeb1e.jpeg"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\c6ce0d60-3472-452b-ae61-390567f4287d.jpeg",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\c6ce0d60-3472-452b-ae61-390567f4287d.jpeg",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/c6ce0d60-3472-452b-ae61-390567f4287d.jpeg",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\c6ce0d60-3472-452b-ae61-390567f4287d.jpeg"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\cbcbd9af-e290-4eb2-8a14-c268d40a7501.jpeg",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\cbcbd9af-e290-4eb2-8a14-c268d40a7501.jpeg",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/cbcbd9af-e290-4eb2-8a14-c268d40a7501.jpeg",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\cbcbd9af-e290-4eb2-8a14-c268d40a7501.jpeg"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\ce7305c6-68c7-4bed-80f4-264f30ef692c.png",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\ce7305c6-68c7-4bed-80f4-264f30ef692c.png",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/ce7305c6-68c7-4bed-80f4-264f30ef692c.png",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\ce7305c6-68c7-4bed-80f4-264f30ef692c.png"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\d358957a-6629-45c8-a46e-71e48395e910.jpeg",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\d358957a-6629-45c8-a46e-71e48395e910.jpeg",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/d358957a-6629-45c8-a46e-71e48395e910.jpeg",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\d358957a-6629-45c8-a46e-71e48395e910.jpeg"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\d3c0416d-f131-4386-8f56-954d3fcc299e.jpeg",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\d3c0416d-f131-4386-8f56-954d3fcc299e.jpeg",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/d3c0416d-f131-4386-8f56-954d3fcc299e.jpeg",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\d3c0416d-f131-4386-8f56-954d3fcc299e.jpeg"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\d7823f8c-5d39-40d7-b61c-12bcd34a943d.png",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\d7823f8c-5d39-40d7-b61c-12bcd34a943d.png",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/d7823f8c-5d39-40d7-b61c-12bcd34a943d.png",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\d7823f8c-5d39-40d7-b61c-12bcd34a943d.png"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\d8cbf42b-f08c-4d36-a7b1-ff9c047ce8a2.png",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\d8cbf42b-f08c-4d36-a7b1-ff9c047ce8a2.png",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/d8cbf42b-f08c-4d36-a7b1-ff9c047ce8a2.png",
       "AssetKind": "All",
@@ -834,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\d8cbf42b-f08c-4d36-a7b1-ff9c047ce8a2.png"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\de8c4e96-005c-4332-a7ca-bc26eb2e6442.png",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\de8c4e96-005c-4332-a7ca-bc26eb2e6442.png",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/de8c4e96-005c-4332-a7ca-bc26eb2e6442.png",
       "AssetKind": "All",
@@ -853,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\de8c4e96-005c-4332-a7ca-bc26eb2e6442.png"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\df207ff6-4192-4267-a9f5-83050169444a.jpeg",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\df207ff6-4192-4267-a9f5-83050169444a.jpeg",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/df207ff6-4192-4267-a9f5-83050169444a.jpeg",
       "AssetKind": "All",
@@ -872,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\df207ff6-4192-4267-a9f5-83050169444a.jpeg"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\e2be875a-0436-4b9a-bd40-65cb2e3ae7ed.jpeg",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\e2be875a-0436-4b9a-bd40-65cb2e3ae7ed.jpeg",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/e2be875a-0436-4b9a-bd40-65cb2e3ae7ed.jpeg",
       "AssetKind": "All",
@@ -891,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\e2be875a-0436-4b9a-bd40-65cb2e3ae7ed.jpeg"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\ea9486e8-4f1b-42b9-a57a-c381e8ec46a0.jpeg",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\ea9486e8-4f1b-42b9-a57a-c381e8ec46a0.jpeg",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/ea9486e8-4f1b-42b9-a57a-c381e8ec46a0.jpeg",
       "AssetKind": "All",
@@ -910,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\ea9486e8-4f1b-42b9-a57a-c381e8ec46a0.jpeg"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\edda943f-3e62-439f-bd4f-2902beaedd4a.png",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\edda943f-3e62-439f-bd4f-2902beaedd4a.png",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/edda943f-3e62-439f-bd4f-2902beaedd4a.png",
       "AssetKind": "All",
@@ -929,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\edda943f-3e62-439f-bd4f-2902beaedd4a.png"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\f03fe9ba-faab-445e-bb27-b66d4cdd85d7.jpg",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\f03fe9ba-faab-445e-bb27-b66d4cdd85d7.jpg",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/f03fe9ba-faab-445e-bb27-b66d4cdd85d7.jpg",
       "AssetKind": "All",
@@ -948,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\f03fe9ba-faab-445e-bb27-b66d4cdd85d7.jpg"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\f8d8eea5-19c4-4d8f-a686-cd7050daf52d.jpeg",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\f8d8eea5-19c4-4d8f-a686-cd7050daf52d.jpeg",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/f8d8eea5-19c4-4d8f-a686-cd7050daf52d.jpeg",
       "AssetKind": "All",
@@ -967,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\uploads\\f8d8eea5-19c4-4d8f-a686-cd7050daf52d.jpeg"
     },
     {
-      "Identity": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\f9cbda77-8b89-443b-8561-83b0519e0c79.png",
+      "Identity": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\uploads\\f9cbda77-8b89-443b-8561-83b0519e0c79.png",
       "SourceId": "backend_faspark",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\wwwroot\\",
+      "ContentRoot": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\wwwroot\\",
       "BasePath": "_content/backend_faspark",
       "RelativePath": "uploads/f9cbda77-8b89-443b-8561-83b0519e0c79.png",
       "AssetKind": "All",

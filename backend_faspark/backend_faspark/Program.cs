@@ -4,6 +4,7 @@ using backend_faspark.Database;
 var builder = WebApplication.CreateBuilder(args);
 
 // Force pakai URL tertentu
+// Listen di semua IP, baik itu IP atau Lan
 builder.WebHost.UseUrls("https://localhost:7211");
 
 builder.Services.AddCors(options =>
@@ -34,7 +35,7 @@ app.UseHttpsRedirection();
 
 app.UseCors("AllowAll");
 
-app.UseStaticFiles(); // <-- tambahkan baris ini
+app.UseStaticFiles(); 
 
 app.UseAuthorization();
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\backend_faspark.csproj": {}
+    "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\backend_faspark.csproj": {}
   },
   "projects": {
-    "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\backend_faspark.csproj": {
+    "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\backend_faspark.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\backend_faspark.csproj",
+        "projectUniqueName": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\backend_faspark.csproj",
         "projectName": "backend_faspark",
-        "projectPath": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\backend_faspark.csproj",
+        "projectPath": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\backend_faspark.csproj",
         "packagesPath": "C:\\Users\\Renaldi\\.nuget\\packages\\",
-        "outputPath": "D:\\ITDEV\\FasPark-main\\FasPark-main\\backend_faspark\\backend_faspark\\obj\\",
+        "outputPath": "D:\\ITDEV\\sistem_parkir\\backend_faspark\\backend_faspark\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Renaldi\\AppData\\Roaming\\NuGet\\NuGet.Config",

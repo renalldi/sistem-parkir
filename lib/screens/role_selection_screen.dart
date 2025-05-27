@@ -25,7 +25,7 @@ class RoleSelectionScreen extends StatelessWidget {
             SizedBox(height: 30),
             ElevatedButton(
               onPressed: () => _selectRole(context, 'User'),
-              child: Text("Dosen, Tendik, Mahasiswa"),
+              child: Text("Dosen, Mahasiswa"),
             ),
             SizedBox(height: 20),
             ElevatedButton(
