@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("backend_faspark")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b822a0976cc6deffb15bcc9df4a4401397faac17")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e155dec5bd51493fc639e548525e4de660ddb0ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("backend_faspark")]
 [assembly: System.Reflection.AssemblyTitleAttribute("backend_faspark")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

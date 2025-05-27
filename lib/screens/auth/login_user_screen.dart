@@ -51,7 +51,7 @@ class _LoginUserScreenState extends State<LoginUserScreen> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const Text(
-                "Sign In",
+                "Login",
                 style: TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.bold,
@@ -106,7 +106,7 @@ class _LoginUserScreenState extends State<LoginUserScreen> {
                           ),
                         ),
                         child: const Text(
-                          "Sign In",
+                          "Login",
                           style: TextStyle(color: Colors.white),
                         ),
                       ),
