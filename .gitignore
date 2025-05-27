@@ -44,9 +44,16 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
+# Build output folders
+bin/
+obj/
+
 # Visual Studio related
 .vs/
 *.user
 *.suo
 *.userosscache
 *.sln.docstates
+
+# Layout & IDE-generated configs
+**/DocumentLayout.json
