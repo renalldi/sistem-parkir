@@ -43,3 +43,10 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Visual Studio related
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
